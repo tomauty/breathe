@@ -1,0 +1,8 @@
+{
+  "retainLines": true,
+  "compact": true,
+  "comments": false,
+  "presets": ["es2015"],
+  "plugins": [],
+  "sourceMaps": false
+}

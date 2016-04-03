@@ -4,7 +4,7 @@
   "description": "Remember to focus on your breath",
   "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -37,7 +37,6 @@
     "jest-cli": "^0.10.0"
   },
   "dependencies": {
-    "electron": "^0.4.1",
-    "electron-positioner": "^2.0.3"
+    "yargs": "^4.3.2"
   }
 }

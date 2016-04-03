@@ -1,0 +1,40 @@
+{
+    "parser": "babel-eslint",
+    "globals": {
+      "__TEST__": true,
+      "jest": true,
+      "describe": true,
+      "it": true,
+      "expect": true,
+      "before": true,
+      "after": true,
+      "afterEach": true,
+      "By": true,
+    },
+    "env": {
+        "node": true
+    },
+    "settings": {
+        "ecmascript": 6,
+    },
+    "plugins": [],
+    "extends": "airbnb",
+    "rules": {
+      "no-use-before-define": 0,
+      "space-infix-ops": 0,
+      "indent": [2, "tab"],
+      "quote-props": 0,
+      "max-len": [2, 150, 4, {"ignoreComments": true, "ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\("}],
+      "strict": 0,
+      "no-console": 1,
+      "quotes": 0,
+      "no-labels": 0,
+      "no-unused-vars": [1, {"args": "after-used", "argsIgnorePattern": "^_"}],
+      "no-param-reassign": [2, {"props": false}],
+      "camelcase": 0,
+      "no-alert": 1,
+      "no-underscore-dangle": 0,
+      "no-dupe-keys": 2,
+      "arrow-body-style": [0, "as-needed"],
+    }
+}
